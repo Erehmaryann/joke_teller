@@ -9,3 +9,7 @@
 body {
   background: #45badd;
 }
+
+.container {
+  height: 100vh;
+}
