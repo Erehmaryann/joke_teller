@@ -20,4 +20,5 @@ body {
   background: url("./robot.gif");
   background-size: contain;
   background-position: left center;
+  background-repeat: no-repeat;
 }
