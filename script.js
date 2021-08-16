@@ -101,3 +101,19 @@ const VoiceRSS = {
     throw "The browser does not support HTTP request";
   },
 };
+
+// test function
+function test() {
+  VoiceRSS.speech({
+    key: "ef4445946bdf46e7998ff95e8afe42f2",
+    src: "Hello, world!",
+    hl: "en-us",
+    v: "Linda",
+    r: 0,
+    c: "mp3",
+    f: "44khz_16bit_stereo",
+    ssml: false,
+  });
+}
+
+test();
