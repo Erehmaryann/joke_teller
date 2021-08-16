@@ -25,4 +25,7 @@ body {
 
 /* media Query: For Tablets and mobile devices */
 @media screen and (max-width: 1000px) {
+  .container {
+    background-size: cover;
+  }
 }
