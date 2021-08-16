@@ -1,3 +1,7 @@
+// Variables
+const button = document.getElementById("button");
+const audioElement = document.getElementById("audio");
+
 // VoiceRSS Javascript SDK
 const VoiceRSS = {
   speech: function (e) {
