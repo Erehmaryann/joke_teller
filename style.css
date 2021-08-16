@@ -26,6 +26,7 @@ body {
 #button {
   cursor: pointer;
   outline: none;
+  width: 200px;
 }
 
 /* media Query: For Tablets and mobile devices */
