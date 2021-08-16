@@ -30,6 +30,7 @@ body {
   height: 50px;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+  color: white;
 }
 
 /* media Query: For Tablets and mobile devices */
