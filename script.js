@@ -121,3 +121,12 @@ const VoiceRSS = {
 // }
 
 // test();
+
+// Get Jokes from Joke API
+async function getJokes() {
+  try {
+  } catch (e) {
+    // Catch errors here
+    console.log(e, "whoops");
+  }
+}
