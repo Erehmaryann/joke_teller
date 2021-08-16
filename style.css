@@ -33,6 +33,7 @@ body {
   color: white;
   background: #ff3482;
   border: none;
+  border-radius: 5px;
 }
 
 /* media Query: For Tablets and mobile devices */
