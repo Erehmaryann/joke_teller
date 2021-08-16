@@ -132,6 +132,8 @@ async function getJokes() {
     const data = await res.json();
     if (data.setup) {
       joke = `${data.setup} ... ${data.delivery}`;
+    } else {
+      joke = data.joke;
     }
   } catch (e) {
     // Catch errors here
