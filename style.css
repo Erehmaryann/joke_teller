@@ -34,6 +34,7 @@ body {
   background: #ff3482;
   border: none;
   border-radius: 5px;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* media Query: For Tablets and mobile devices */
