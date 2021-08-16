@@ -32,6 +32,7 @@ body {
   font-size: 20px;
   color: white;
   background: #ff3482;
+  border: none;
 }
 
 /* media Query: For Tablets and mobile devices */
