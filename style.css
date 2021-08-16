@@ -27,5 +27,6 @@ body {
 @media screen and (max-width: 1000px) {
   .container {
     background-size: cover;
+    background-position: center center;
   }
 }
