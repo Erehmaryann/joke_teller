@@ -23,6 +23,10 @@ body {
   background-repeat: no-repeat;
 }
 
+#button {
+  cursor: pointer;
+}
+
 /* media Query: For Tablets and mobile devices */
 @media screen and (max-width: 1000px) {
   .container {
