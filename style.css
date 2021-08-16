@@ -27,6 +27,7 @@ body {
   cursor: pointer;
   outline: none;
   width: 200px;
+  height: 50px;
 }
 
 /* media Query: For Tablets and mobile devices */
