@@ -124,10 +124,15 @@ const VoiceRSS = {
 
 // Get Jokes from Joke API
 async function getJokes() {
+  let joke = "";
   const jokeUrl =
     "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit";
   try {
-    something;
+    const res = await fetch(jokeUrl);
+    const data = await res.json();
+    if (data.setup) {
+      joke = `${data.setup} ... ${data.delivery}`;
+    }
   } catch (e) {
     // Catch errors here
     console.log(e, "whoops");
