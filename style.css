@@ -47,6 +47,7 @@ body {
 
 #button:disabled {
   cursor: default;
+  filter: brightness(30%);
 }
 
 /* media Query: For Tablets and mobile devices */
