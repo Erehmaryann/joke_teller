@@ -124,9 +124,14 @@ const VoiceRSS = {
 
 // Get Jokes from Joke API
 async function getJokes() {
+  const jokeUrl =
+    "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit";
   try {
+    something;
   } catch (e) {
     // Catch errors here
     console.log(e, "whoops");
   }
 }
+
+getJokes();
