@@ -45,6 +45,10 @@ body {
   transform: scale(0.98);
 }
 
+#button:disabled {
+  cursor: default;
+}
+
 /* media Query: For Tablets and mobile devices */
 @media screen and (max-width: 1000px) {
   .container {
