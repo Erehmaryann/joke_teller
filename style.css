@@ -28,6 +28,7 @@ body {
   outline: none;
   width: 200px;
   height: 50px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* media Query: For Tablets and mobile devices */
