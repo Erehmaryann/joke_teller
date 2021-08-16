@@ -37,6 +37,10 @@ body {
   box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
+#button:hover {
+  filter: brightness(95%);
+}
+
 /* media Query: For Tablets and mobile devices */
 @media screen and (max-width: 1000px) {
   .container {
