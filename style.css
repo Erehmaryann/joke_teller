@@ -31,6 +31,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   color: white;
+  background: #ff3482;
 }
 
 /* media Query: For Tablets and mobile devices */
