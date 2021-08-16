@@ -41,6 +41,10 @@ body {
   filter: brightness(95%);
 }
 
+#button:active {
+  transform: scale(0.98);
+}
+
 /* media Query: For Tablets and mobile devices */
 @media screen and (max-width: 1000px) {
   .container {
