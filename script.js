@@ -122,6 +122,9 @@ const VoiceRSS = {
 
 // test();
 
+// Passing our joke to the VoiceRSS API
+function speakJoke(joke) {}
+
 // Get Jokes from Joke API
 async function getJokes() {
   let joke = "";
@@ -130,11 +133,12 @@ async function getJokes() {
   try {
     const res = await fetch(jokeUrl);
     const data = await res.json();
-    if (data.setup) {
+    if (data.type === "twopart") {
       joke = `${data.setup} ... ${data.delivery}`;
     } else {
       joke = data.joke;
     }
+    speakJoke(joke);
   } catch (e) {
     // Catch errors here
     console.log(e, "whoops");
